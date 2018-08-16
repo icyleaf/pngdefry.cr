@@ -1,0 +1,12 @@
+name: pngdefry
+version: 0.1.0
+
+authors:
+  - icyleaf <icyleaf.cn@gmail.com>
+
+scripts:
+  postinstall: cd ext && make
+
+crystal: 0.25.1
+
+license: MIT
